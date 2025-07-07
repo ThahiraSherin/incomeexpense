@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+h2, h3 {
+  margin-top: 0;
+}
+
+.header {
+  background-color: #e9f5e9;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.calculator {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.calculator input {
+  flex: 1;
+  padding: 5px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ #record-list {
+      margin-top: 30px;
+    }
+.record-card {
+  background: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.record-card button {
+  margin-right: 5px;
+  background-color: #28a745;
+}
+.record-card button:first-of-type {
+  background-color: #dc3545;
+}

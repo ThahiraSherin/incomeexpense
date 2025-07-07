@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Income & Expense Calculator</title>
+  <link rel="stylesheet" href="./IE cal.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>💰 Income & Expense Calculator</h2>
+
+  <div class="header">
+    <p>Total Income: ₹<span id="total-income">0</span></p>
+    <p>Total Expenses: ₹<span id="total-expense">0</span></p>
+    <p>Balance: ₹<span id="balance">0</span></p>
+  </div>
+
+  <div class="section">
+    <h3>Incomes</h3>
+    <div id="income-list"></div>
+    <button onclick="addIncome()">+ Add Income</button>
+  </div>
+
+  <div class="section">
+    <h3>Expenses</h3>
+    <div id="expense-list"></div>
+    <button onclick="addExpense()">+ Add Expense</button>
+  </div>
+
+  <div class="actions">
+    <button onclick="submitform()">Submit</button>
+    <button onclick="resetform()">Reset</button>
+  </div>
+
+  <hr>
+
+  <div class="records-section">
+    <h3>Submitted Records</h3>
+    <div id="record-list"></div>
+  </div>
+</div>
+
+<script src="./IE cal.js"></script>
+</body>
+</html>
